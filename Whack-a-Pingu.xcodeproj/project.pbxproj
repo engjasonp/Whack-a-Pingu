@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6D84B11B93B5E700F5C256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D84B01B93B5E700F5C256 /* AppDelegate.swift */; };
+		CA6D84B31B93B5E700F5C256 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA6D84B21B93B5E700F5C256 /* GameScene.sks */; };
+		CA6D84B51B93B5E700F5C256 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D84B41B93B5E700F5C256 /* GameScene.swift */; };
+		CA6D84B71B93B5E700F5C256 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D84B61B93B5E700F5C256 /* GameViewController.swift */; };
+		CA6D84BA1B93B5E700F5C256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6D84B81B93B5E700F5C256 /* Main.storyboard */; };
+		CA6D84BC1B93B5E700F5C256 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6D84BB1B93B5E700F5C256 /* Images.xcassets */; };
+		CA6D84BF1B93B5E700F5C256 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6D84BD1B93B5E700F5C256 /* LaunchScreen.xib */; };
+		CA6D84CB1B93B5E700F5C256 /* Whack_a_PinguTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D84CA1B93B5E700F5C256 /* Whack_a_PinguTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA6D84C51B93B5E700F5C256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6D84A31B93B5E600F5C256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6D84AA1B93B5E700F5C256;
+			remoteInfo = "Whack-a-Pingu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA6D84AB1B93B5E700F5C256 /* Whack-a-Pingu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack-a-Pingu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6D84AF1B93B5E700F5C256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6D84B01B93B5E700F5C256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA6D84B21B93B5E700F5C256 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CA6D84B41B93B5E700F5C256 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CA6D84B61B93B5E700F5C256 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CA6D84B91B93B5E700F5C256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA6D84BB1B93B5E700F5C256 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA6D84BE1B93B5E700F5C256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CA6D84C41B93B5E700F5C256 /* Whack-a-PinguTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whack-a-PinguTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6D84C91B93B5E700F5C256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6D84CA1B93B5E700F5C256 /* Whack_a_PinguTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_a_PinguTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6D84A81B93B5E700F5C256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6D84C11B93B5E700F5C256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6D84A21B93B5E600F5C256 = {
+			isa = PBXGroup;
+			children = (
+				CA6D84AD1B93B5E700F5C256 /* Whack-a-Pingu */,
+				CA6D84C71B93B5E700F5C256 /* Whack-a-PinguTests */,
+				CA6D84AC1B93B5E700F5C256 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6D84AC1B93B5E700F5C256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6D84AB1B93B5E700F5C256 /* Whack-a-Pingu.app */,
+				CA6D84C41B93B5E700F5C256 /* Whack-a-PinguTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6D84AD1B93B5E700F5C256 /* Whack-a-Pingu */ = {
+			isa = PBXGroup;
+			children = (
+				CA6D84B01B93B5E700F5C256 /* AppDelegate.swift */,
+				CA6D84B21B93B5E700F5C256 /* GameScene.sks */,
+				CA6D84B41B93B5E700F5C256 /* GameScene.swift */,
+				CA6D84B61B93B5E700F5C256 /* GameViewController.swift */,
+				CA6D84B81B93B5E700F5C256 /* Main.storyboard */,
+				CA6D84BB1B93B5E700F5C256 /* Images.xcassets */,
+				CA6D84BD1B93B5E700F5C256 /* LaunchScreen.xib */,
+				CA6D84AE1B93B5E700F5C256 /* Supporting Files */,
+			);
+			path = "Whack-a-Pingu";
+			sourceTree = "<group>";
+		};
+		CA6D84AE1B93B5E700F5C256 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA6D84AF1B93B5E700F5C256 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA6D84C71B93B5E700F5C256 /* Whack-a-PinguTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6D84CA1B93B5E700F5C256 /* Whack_a_PinguTests.swift */,
+				CA6D84C81B93B5E700F5C256 /* Supporting Files */,
+			);
+			path = "Whack-a-PinguTests";
+			sourceTree = "<group>";
+		};
+		CA6D84C81B93B5E700F5C256 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA6D84C91B93B5E700F5C256 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6D84AA1B93B5E700F5C256 /* Whack-a-Pingu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6D84CE1B93B5E700F5C256 /* Build configuration list for PBXNativeTarget "Whack-a-Pingu" */;
+			buildPhases = (
+				CA6D84A71B93B5E700F5C256 /* Sources */,
+				CA6D84A81B93B5E700F5C256 /* Frameworks */,
+				CA6D84A91B93B5E700F5C256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whack-a-Pingu";
+			productName = "Whack-a-Pingu";
+			productReference = CA6D84AB1B93B5E700F5C256 /* Whack-a-Pingu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA6D84C31B93B5E700F5C256 /* Whack-a-PinguTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6D84D11B93B5E700F5C256 /* Build configuration list for PBXNativeTarget "Whack-a-PinguTests" */;
+			buildPhases = (
+				CA6D84C01B93B5E700F5C256 /* Sources */,
+				CA6D84C11B93B5E700F5C256 /* Frameworks */,
+				CA6D84C21B93B5E700F5C256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6D84C61B93B5E700F5C256 /* PBXTargetDependency */,
+			);
+			name = "Whack-a-PinguTests";
+			productName = "Whack-a-PinguTests";
+			productReference = CA6D84C41B93B5E700F5C256 /* Whack-a-PinguTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6D84A31B93B5E600F5C256 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = EngJason;
+				TargetAttributes = {
+					CA6D84AA1B93B5E700F5C256 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CA6D84C31B93B5E700F5C256 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CA6D84AA1B93B5E700F5C256;
+					};
+				};
+			};
+			buildConfigurationList = CA6D84A61B93B5E600F5C256 /* Build configuration list for PBXProject "Whack-a-Pingu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6D84A21B93B5E600F5C256;
+			productRefGroup = CA6D84AC1B93B5E700F5C256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6D84AA1B93B5E700F5C256 /* Whack-a-Pingu */,
+				CA6D84C31B93B5E700F5C256 /* Whack-a-PinguTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6D84A91B93B5E700F5C256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6D84BF1B93B5E700F5C256 /* LaunchScreen.xib in Resources */,
+				CA6D84BC1B93B5E700F5C256 /* Images.xcassets in Resources */,
+				CA6D84B31B93B5E700F5C256 /* GameScene.sks in Resources */,
+				CA6D84BA1B93B5E700F5C256 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6D84C21B93B5E700F5C256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6D84A71B93B5E700F5C256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6D84B51B93B5E700F5C256 /* GameScene.swift in Sources */,
+				CA6D84B71B93B5E700F5C256 /* GameViewController.swift in Sources */,
+				CA6D84B11B93B5E700F5C256 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6D84C01B93B5E700F5C256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6D84CB1B93B5E700F5C256 /* Whack_a_PinguTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA6D84C61B93B5E700F5C256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6D84AA1B93B5E700F5C256 /* Whack-a-Pingu */;
+			targetProxy = CA6D84C51B93B5E700F5C256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA6D84B81B93B5E700F5C256 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6D84B91B93B5E700F5C256 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6D84BD1B93B5E700F5C256 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6D84BE1B93B5E700F5C256 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6D84CC1B93B5E700F5C256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CA6D84CD1B93B5E700F5C256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6D84CF1B93B5E700F5C256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whack-a-Pingu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA6D84D01B93B5E700F5C256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whack-a-Pingu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA6D84D21B93B5E700F5C256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Whack-a-PinguTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whack-a-Pingu.app/Whack-a-Pingu";
+			};
+			name = Debug;
+		};
+		CA6D84D31B93B5E700F5C256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Whack-a-PinguTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whack-a-Pingu.app/Whack-a-Pingu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6D84A61B93B5E600F5C256 /* Build configuration list for PBXProject "Whack-a-Pingu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6D84CC1B93B5E700F5C256 /* Debug */,
+				CA6D84CD1B93B5E700F5C256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6D84CE1B93B5E700F5C256 /* Build configuration list for PBXNativeTarget "Whack-a-Pingu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6D84CF1B93B5E700F5C256 /* Debug */,
+				CA6D84D01B93B5E700F5C256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA6D84D11B93B5E700F5C256 /* Build configuration list for PBXNativeTarget "Whack-a-PinguTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6D84D21B93B5E700F5C256 /* Debug */,
+				CA6D84D31B93B5E700F5C256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6D84A31B93B5E600F5C256 /* Project object */;
+}
